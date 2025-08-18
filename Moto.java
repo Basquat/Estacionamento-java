@@ -1,18 +1,18 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Carro {
+public class Moto {
     Scanner sc = new Scanner(System.in);
-    static ArrayList<String> meusCarros = new ArrayList<>();
+    static ArrayList<String> minhasMotos = new ArrayList<>();
     String placa;
 
-    public void carro(String placa) {
+    public void moto(String placa) {
         
-            System.out.println("add carros\n");
+            System.out.println("add motos\n");
             System.out.println("Digite a placa que você deseja adicionar");
             
             placa = sc.nextLine();
-            meusCarros.add(placa);
+            minhasMotos.add(placa);
             
             System.out.println("Adicionado ao sistema !\n");
             return;               

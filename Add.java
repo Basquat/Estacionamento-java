@@ -1,11 +1,9 @@
 public class Add {  
     public void add() {
-        while(true){
-        Carro opt2 = new Carro();
+        System.out.println("mostrando carros\n");
+        System.out.println(Carro.meusCarros + "\n"); 
 
-        System.out.println("mostrando carros");
-
-        System.out.println(opt2.placa);
-        }
+        System.out.println("\nmostrando motos\n");
+        System.out.println(Moto.minhasMotos);
     }
 }
